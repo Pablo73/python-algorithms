@@ -7,4 +7,4 @@ def study_schedule(permanence_period, target_time):
             return None
         elif target_time >= tuple[0] and target_time <= tuple[1]:
             value += 1
-        return value
+    return value
